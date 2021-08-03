@@ -521,6 +521,7 @@ input[type="checkbox"] {
 .header {
   padding-top: 7rem;
   padding-bottom: 5.5rem;
+  background-color: black;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
     url("../images/header-background.jpg") center center no-repeat;
   background-size: cover;
@@ -1342,4 +1343,7 @@ a:hover.back-to-top {
   background-color: transparent;
   color: #0b36a8; /* needs to stay here because of the color property of a tag */
   text-decoration: none;
+}
+.disabled{
+   pointer-events: none;
 }
