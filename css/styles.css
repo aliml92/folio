@@ -994,7 +994,7 @@ a:hover.back-to-top {
     padding-bottom: 9rem;
   }
   /* end of header */
-
+ 
   /* Services */
   .basic-2 .text-box {
     padding-right: 2.125rem;
@@ -1006,6 +1006,25 @@ a:hover.back-to-top {
   .ex-basic-1 .text-box {
     padding: 1.75rem 2rem 0.875rem 2rem;
   }
+  /* end of extra pages */
+}
+/* end of min-width 768px */
+
+/* Min-width 768px */
+@media  (max-width: 768px) {
+  /* Header */
+  .header {
+    padding-top: 11rem;
+    padding-bottom: 9rem;
+  }
+  /* end of header */
+  .basic-1,.basic-2,.basic-3,.basic-4,.area-2,.form-1{
+    padding-top: 2.125rem;
+    padding-bottom: 2.125rem;
+  }
+  /* Services */
+
+
   /* end of extra pages */
 }
 /* end of min-width 768px */
