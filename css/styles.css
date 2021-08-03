@@ -521,7 +521,6 @@ input[type="checkbox"] {
 .header {
   padding-top: 7rem;
   padding-bottom: 5.5rem;
-  background-color: black;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
     url("../images/header-background.jpg") center center no-repeat;
   background-size: cover;
