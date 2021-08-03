@@ -14,6 +14,16 @@
 		}
     });
     
+	// jQuery for page scrolling feature - requires jQuery Easing plugin
+	$(function() {
+		$(document).on('click', 'a.page-scroll', function(event) {
+			var $anchor = $(this);
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 600, 'easeInQuint');
+			event.preventDefault();
+		});
+    });
 
     // offcanvas script from Bootstrap + added element to close menu on click in small viewport
     $('[data-toggle="offcanvas"], .navbar-nav li a:not(.dropdown-toggle').on('click', function () {
