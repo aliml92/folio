@@ -9,7 +9,7 @@ let tr = [
     },
     {
         eng: 'Discover',
-        kor: '반견하기',
+        kor: '발견하기',
     },
     {
         eng: 'Contact Me',
