@@ -177,7 +177,7 @@ let tr = [
     },
     {
         eng: "Message",
-        kor: "메시지",
+        kor: "메세지",
     },
     {
         eng: "Submit",
